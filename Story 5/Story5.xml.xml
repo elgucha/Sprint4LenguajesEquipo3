@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panesur>
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com/xml esquemaxsd.xsd">
+	<pan categoria="Artesanal">
+		<nombre>Pan de Maiz</nombre>
+		<harina>Maiz y Trigo</harina>
+        <disponible>Si</disponible>
+	</pan>
+	<pan categoria="Artesanal">
+		<nombre>Pan Aleman</nombre>
+		<harina>Trigo,Avena y Arroz</harina>
+        <disponible>No</disponible>
+    </pan>
+	<pan categoria="Industrial">
+		<nombre>Pan de Chia</nombre>
+		<harina>Trigo</harina>
+        <disponible>Si</disponible>
+	</pan>
+    <pan categoria="Artesanal">
+		<nombre>Pan Ecologico</nombre>
+		<harina>Trigo,Avena y Arroz</harina>
+        <disponible>Si</disponible>
+    </pan>
+    <pan categoria="Industrial">
+		<nombre>Pan de Trigo</nombre>
+		<harina>Trigo</harina>
+        <disponible>Si</disponible>
+	</pan>
+    <pan categoria="Artesanal">
+		<nombre>Pan de Pueblo</nombre>
+		<harina>Maiz y Trigo</harina>
+        <disponible>No</disponible>
+	</pan>
+    <pan categoria="Artesanal">
+		<nombre>Mollete</nombre>
+		<harina>Trigo</harina>
+        <disponible>Si</disponible>
+	</pan>
+    <pan categoria="Artesanal">
+		<nombre>Pan Cateto</nombre>
+		<harina>Maiz y Trigo</harina>
+        <disponible>Si</disponible>
+	</pan>
+    <pan categoria="Industrial">
+		<nombre>Baguette</nombre>
+		<harina>Trigo</harina>
+        <disponible>Si</disponible>
+	</pan>
+    <pan categoria="Industrial">
+		<nombre>Pan de Rosca</nombre>
+		<harina>Maiz y Trigo</harina>
+        <disponible>Si</disponible>
+	</pan>
+
+</panesur>
