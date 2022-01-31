@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <menu>
-   <entrantes>
+   <entrantes categoria="salado">
 	<nombre> Entrante1 </nombre>
 	<precio> 10€ </precio>
 	<ingredientes> A </ingredientes>
@@ -19,7 +19,7 @@
 	<ingredientes> C </ingredientes>
    </entrantes>
 
-   <principales>
+   <principales categoria="salado">
 	<nombre> Principal1 </nombre>
 	<precio> 90€ </precio>
 	<ingredientes> X </ingredientes> 
@@ -33,7 +33,7 @@
 	<ingredientes> Z </ingredientes> 
    </principales>
 
-   <postres>
+   <postres categoria="dulce">
 	<nombre> Postre1 </nombre>
 	<precio> 50€ </precio>
 	<ingredientes> D </ingredientes> 
