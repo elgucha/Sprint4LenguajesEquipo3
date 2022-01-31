@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<note xmlns="jugadores">
+<xs:schema xmlns:xs="https://github.com/GuillermoRojoSantos/Sprint4LenguajesEquipo3">
+
+<xs:element name="jugador">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="edad" type="xs:integer"/>
+      <xs:element name="sueldo" type="xs:decimal"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="jugador">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="edad" type="xs:integer"/>
+      <xs:element name="sueldo" type="xs:decimal"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="jugador">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="edad" type="xs:integer"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="jugador">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="nombre" type="xs:string"/>
+      <xs:element name="edad" type="xs:integer"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>
