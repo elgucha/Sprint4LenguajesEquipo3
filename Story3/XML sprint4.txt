@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu>
+   <entrantes>
+	<nombre> Entrante1 </nombre>
+	<precio> 10€ </precio>
+	<ingredientes> A </ingredientes>
+ 
+	<nombre> Entrante2 </nombre>
+	<precio> 15€ </precio>
+	<ingredientes> B </ingredientes>	  
+
+	<nombre> Entrante3 </nombre>
+	<precio> 20€ </precio>
+	<ingredientes> C </ingredientes>
+
+	<nombre> Entrante4 </nombre>
+	<precio> 25€ </precio>
+	<ingredientes> C </ingredientes>
+   </entrantes>
+
+   <principales>
+	<nombre> Principal1 </nombre>
+	<precio> 90€ </precio>
+	<ingredientes> X </ingredientes> 
+
+	<nombre> Principal2 </nombre>
+	<precio> 60€ </precio>
+	<ingredientes> Y </ingredientes> 
+
+	<nombre> Principal3 </nombre>
+	<precio> 30€ </precio>
+	<ingredientes> Z </ingredientes> 
+   </principales>
+
+   <postres>
+	<nombre> Postre1 </nombre>
+	<precio> 50€ </precio>
+	<ingredientes> D </ingredientes> 
+
+	<nombre> Postre2 </nombre>
+	<precio> 60€ </precio>
+	<ingredientes> F </ingredientes> 
+
+	<nombre> Postre3 </nombre>
+	<precio> 70€ </precio>
+	<ingredientes> G </ingredientes> 
+   </postres>
+</menu>
