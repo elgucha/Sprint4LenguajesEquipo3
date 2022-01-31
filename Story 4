@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liga>
+   <equipo categoria="1">
+    <nombre>equipo1</nombre>
+    <ranking>1</ranking>
+    <jugadores>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="suplente">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="suplente">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+    </jugadores>
+    </equipo>
+    <equipo categoria="2">
+    <nombre>equipo1</nombre>
+    <ranking>2</ranking>
+    <jugadores>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="suplente">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="suplente">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+    </jugadores>
+    </equipo>
+    <equipo categoria="3">
+    <nombre>equipo1</nombre>
+    <ranking>3</ranking>
+    <jugadores>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="suplente">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+    </jugadores>
+    </equipo>
+    <equipo categoria="4">
+    <nombre>equipo1</nombre>
+    <ranking>4</ranking>
+    <jugadores>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="suplente">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="suplente">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="suplente">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>1</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+    </jugadores>
+    </equipo>
+</liga>
