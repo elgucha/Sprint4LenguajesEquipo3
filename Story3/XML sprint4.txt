@@ -3,61 +3,61 @@
 <menu>
    <entrantes categoria="salado">
 	<nombre> Entrante1 </nombre>
-	<precio> 10€ </precio>
+	<precio>10</precio>
 	<ingredientes> A </ingredientes>
    </entrantes>
    
    <entrantes categoria="salado">
 	<nombre> Entrante2 </nombre>
-	<precio> 15€ </precio>
+	<precio>15</precio>
 	<ingredientes> B </ingredientes>	  
    </entrantes>
    
    <entrantes categoria="salado">
 	<nombre> Entrante3 </nombre>
-	<precio> 20€ </precio>
+	<precio>20</precio>
 	<ingredientes> C </ingredientes>
    </entrantes>
    
    <entrantes categoria="salado">
 	<nombre> Entrante4 </nombre>
-	<precio> 25€ </precio>
+	<precio>25</precio>
 	<ingredientes> C </ingredientes>
    </entrantes>
 
    <principales categoria="salado">
 	<nombre> Principal1 </nombre>
-	<precio> 90€ </precio>
+	<precio>90</precio>
 	<ingredientes> X </ingredientes> 
    </principales>
 
    <principales categoria="salado">
 	<nombre> Principal2 </nombre>
-	<precio> 60€ </precio>
+	<precio>60</precio>
 	<ingredientes> Y </ingredientes> 
    </principales>
 	
    <principales categoria="salado">
 	<nombre> Principal3 </nombre>
-	<precio> 30€ </precio>
+	<precio>30</precio>
 	<ingredientes> Z </ingredientes> 
    </principales>
 
    <postres categoria="dulce">
 	<nombre> Postre1 </nombre>
-	<precio> 50€ </precio>
+	<precio>50</precio>
 	<ingredientes> D </ingredientes> 
    </postres>
 
    <postres categoria="dulce">
 	<nombre> Postre2 </nombre>
-	<precio> 60€ </precio>
+	<precio>60</precio>
 	<ingredientes> F </ingredientes> 
    </postres>
    
    <postres categoria="dulce">
 	<nombre> Postre3 </nombre>
-	<precio> 70€ </precio>
+	<precio>70</precio>
 	<ingredientes> G </ingredientes> 
    </postres>
 </menu>
