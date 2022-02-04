@@ -1,35 +1,38 @@
-<?xml version="1.0"?>
-<note xmlns="menu">
-
-<xs:schema>
-<xs:element name="entrantes">
-  <xs:complexType>
-    <xs:sequence>
-      <xs:element name="nombre" type="xs:string"/>
-      <xs:element name="precio" type="xs:integer"/>
-      <xs:element name="ingredientes" type="xs:string"/>
-    </xs:sequence>
-  </xs:complexType>
-</xs:element>
-
-<xs:element name="principal">
-  <xs:complexType>
-    <xs:sequence>
-      <xs:element name="nombre" type="xs:string"/>
-      <xs:element name="precio" type="xs:integer"/>
-      <xs:element name="ingredientes" type="xs:string"/>
-    </xs:sequence>
-  </xs:complexType>
-</xs:element>
-
-<xs:element name="postres">
-  <xs:complexType>
-    <xs:sequence>
-      <xs:element name="nombre" type="xs:string"/>
-      <xs:element name="precio" type="xs:integer"/>
-      <xs:element name="ingredientes" type="xs:string"/>
-    </xs:sequence>
-  </xs:complexType>
-</xs:element>
-
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="menu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="entrantes" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="nombre"/>
+              <xs:element type="xs:byte" name="precio"/>
+              <xs:element type="xs:string" name="ingredientes"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="categoria" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="principales" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="nombre"/>
+              <xs:element type="xs:byte" name="precio"/>
+              <xs:element type="xs:string" name="ingredientes"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="categoria" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="postres" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="nombre"/>
+              <xs:element type="xs:byte" name="precio"/>
+              <xs:element type="xs:string" name="ingredientes"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="categoria" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>
