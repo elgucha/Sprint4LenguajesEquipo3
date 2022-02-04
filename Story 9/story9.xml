@@ -6,8 +6,8 @@
   <xs:complexType>
     <xs:sequence>
       <xs:element name="nombre" type="xs:string"/>
-      <xs:element name="edad" type="xs:integer"/>
-      <xs:element name="ingrediente" type="xs:string"/>
+      <xs:element name="precio" type="xs:integer"/>
+      <xs:element name="ingredientes" type="xs:string"/>
     </xs:sequence>
   </xs:complexType>
 </xs:element>
@@ -16,8 +16,8 @@
   <xs:complexType>
     <xs:sequence>
       <xs:element name="nombre" type="xs:string"/>
-      <xs:element name="edad" type="xs:integer"/>
-      <xs:element name="sueldo" type="xs:string"/>
+      <xs:element name="precio" type="xs:integer"/>
+      <xs:element name="ingredientes" type="xs:string"/>
     </xs:sequence>
   </xs:complexType>
 </xs:element>
@@ -27,7 +27,7 @@
     <xs:sequence>
       <xs:element name="nombre" type="xs:string"/>
       <xs:element name="precio" type="xs:integer"/>
-      <xs:element name="ingrediente" type="xs:string"/>
+      <xs:element name="ingredientes" type="xs:string"/>
     </xs:sequence>
   </xs:complexType>
 </xs:element>
