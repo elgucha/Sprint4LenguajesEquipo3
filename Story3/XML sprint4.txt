@@ -29,11 +29,15 @@
 	<nombre> Principal1 </nombre>
 	<precio> 90€ </precio>
 	<ingredientes> X </ingredientes> 
+   </principales>
 
+   <principales>
 	<nombre> Principal2 </nombre>
 	<precio> 60€ </precio>
 	<ingredientes> Y </ingredientes> 
-
+   </principales>
+	
+   <principales>
 	<nombre> Principal3 </nombre>
 	<precio> 30€ </precio>
 	<ingredientes> Z </ingredientes> 
@@ -43,11 +47,15 @@
 	<nombre> Postre1 </nombre>
 	<precio> 50€ </precio>
 	<ingredientes> D </ingredientes> 
+   </postres>
 
+   <postres>
 	<nombre> Postre2 </nombre>
 	<precio> 60€ </precio>
 	<ingredientes> F </ingredientes> 
-
+   </postres>
+   
+   <postres>
 	<nombre> Postre3 </nombre>
 	<precio> 70€ </precio>
 	<ingredientes> G </ingredientes> 
