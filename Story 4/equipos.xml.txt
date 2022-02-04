@@ -5,7 +5,7 @@
     <ranking>1</ranking>
     <jugadores>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>1p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
@@ -20,27 +20,27 @@
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>2p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>3p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>4p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>5p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>6p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
@@ -51,27 +51,27 @@
     <ranking>2</ranking>
     <jugadores>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>7p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>8p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>9p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>10p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>11p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
@@ -81,7 +81,7 @@
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>12p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
@@ -97,7 +97,7 @@
     <ranking>3</ranking>
     <jugadores>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>13p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
@@ -107,32 +107,32 @@
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>14p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>15p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>16p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>17p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>18p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>19p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
@@ -143,11 +143,26 @@
     <ranking>4</ranking>
     <jugadores>
         <jugador categoria="principal">
+            <nombre>20p</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="principal">
+            <nombre>21p</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="suplente">
             <nombre>1</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
+            <nombre>22p</nombre>
+            <edad>17</edad>
+            <sueldo>1000</sueldo>
+        </jugador>
+        <jugador categoria="suplente">
             <nombre>1</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
@@ -158,27 +173,12 @@
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
-            <edad>17</edad>
-            <sueldo>1000</sueldo>
-        </jugador>
-        <jugador categoria="suplente">
-            <nombre>1</nombre>
-            <edad>17</edad>
-            <sueldo>1000</sueldo>
-        </jugador>
-        <jugador categoria="suplente">
-            <nombre>1</nombre>
+            <nombre>23p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
         <jugador categoria="principal">
-            <nombre>1</nombre>
-            <edad>17</edad>
-            <sueldo>1000</sueldo>
-        </jugador>
-        <jugador categoria="principal">
-            <nombre>1</nombre>
+            <nombre>24p</nombre>
             <edad>17</edad>
             <sueldo>1000</sueldo>
         </jugador>
