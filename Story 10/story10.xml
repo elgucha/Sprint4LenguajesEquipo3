@@ -1,45 +1,33 @@
-<?xml version="1.0"?>
-<note xmlns="jugadores">
-<xs:schema xmlns:xs="https://github.com/GuillermoRojoSantos/Sprint4LenguajesEquipo3">
-
-<xs:element name="jugador">
-  <xs:complexType>
-    <xs:sequence>
-      <xs:element name="nombre" type="xs:string"/>
-      <xs:element name="edad" type="xs:integer"/>
-      <xs:element name="sueldo" type="xs:decimal"/>
-    </xs:sequence>
-  </xs:complexType>
-</xs:element>
-
-<xs:element name="jugador">
-  <xs:complexType>
-    <xs:sequence>
-      <xs:element name="nombre" type="xs:string"/>
-      <xs:element name="edad" type="xs:integer"/>
-      <xs:element name="sueldo" type="xs:decimal"/>
-    </xs:sequence>
-  </xs:complexType>
-</xs:element>
-
-<xs:element name="jugador">
-  <xs:complexType>
-    <xs:sequence>
-      <xs:element name="nombre" type="xs:string"/>
-      <xs:element name="edad" type="xs:integer"/>
-      <xs:element name="sueldo" type="xs:decimal"/>
-    </xs:sequence>
-  </xs:complexType>
-</xs:element>
-
-<xs:element name="jugador">
-  <xs:complexType>
-    <xs:sequence>
-      <xs:element name="nombre" type="xs:string"/>
-      <xs:element name="edad" type="xs:integer"/>
-      <xs:element name="sueldo" type="xs:decimal"/>
-    </xs:sequence>
-  </xs:complexType>
-</xs:element>
-
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="liga">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="equipo" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="nombre"/>
+              <xs:element type="xs:byte" name="ranking"/>
+              <xs:element name="jugadores">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="jugador" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="nombre"/>
+                          <xs:element type="xs:byte" name="edad"/>
+                          <xs:element type="xs:short" name="sueldo"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="categoria" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:byte" name="categoria" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>
