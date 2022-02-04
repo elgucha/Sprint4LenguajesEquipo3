@@ -1,0 +1,23 @@
+-mostrar los jugadores del segundo equipo
+//liga/equipo[@categoria='2']/jugadores
+
+-mostrar sólo los jugadores principales de todos equipos
+//liga/equipo/jugadores/jugador[@categoria='principal']
+
+-mostrar los jugadores con un sueldo mayor a 1500 euros
+//liga/equipo/jugadores/jugador[sueldo>1500]
+
+-mostrar el equipo cuyo ranking sea igual a 1
+//liga/equipo[ranking=1]/nombre
+
+-mostrar solo el nombre de los equipos y su ranking
+//liga/equipo/nombre | //liga/equipo/ranking
+
+-mostrar los jugadores de 17 años
+//liga/equipo/jugadores/jugador[edad=17]
+
+-mostrar los nombres de los equipos con ranking>1
+//liga/equipo[ranking>1]/nombre
+
+-Mostrar el ranking de todos los equipos 
+//liga/equipo/ranking

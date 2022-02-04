@@ -1,0 +1,26 @@
+-Mostrar solo los postres
+//menu/postres
+
+-Todos los platos que tengan un precio menor a 10 euros(hemos puesto menor o igual porque no hay platos por menos de 10€)
+//menu/*[precio<=10]
+
+-todos los platos que tengan como ingrediente C(no existe el ingrediente pescado)
+//menu/*[ingredientes=' C ']
+
+-Mostrar el último plato de la lista
+//menu/*[10]
+
+-Mostrar solo el nombre de todos los platos
+//menu/*/nombre
+
+-Sólo el nombre y el primer ingrediente de todos los platos
+//menu/*/nombre | //menu/*/ingredientes
+
+-Mostrar solo los principales
+//menu/principales
+
+-El nombre de los platos que valen 60€
+//menu/*[precio=60]/nombre
+
+-los platos que tienen un precio mayor a 30€
+//menu/*[precio>30]
