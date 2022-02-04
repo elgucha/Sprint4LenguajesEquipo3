@@ -31,13 +31,13 @@
 	<ingredientes> X </ingredientes> 
    </principales>
 
-   <principales>
+   <principales categoria="salado">
 	<nombre> Principal2 </nombre>
 	<precio> 60€ </precio>
 	<ingredientes> Y </ingredientes> 
    </principales>
 	
-   <principales>
+   <principales categoria="salado">
 	<nombre> Principal3 </nombre>
 	<precio> 30€ </precio>
 	<ingredientes> Z </ingredientes> 
@@ -49,13 +49,13 @@
 	<ingredientes> D </ingredientes> 
    </postres>
 
-   <postres>
+   <postres categoria="dulce">
 	<nombre> Postre2 </nombre>
 	<precio> 60€ </precio>
 	<ingredientes> F </ingredientes> 
    </postres>
    
-   <postres>
+   <postres categoria="dulce">
 	<nombre> Postre3 </nombre>
 	<precio> 70€ </precio>
 	<ingredientes> G </ingredientes> 
