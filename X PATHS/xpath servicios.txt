@@ -1,0 +1,18 @@
+-Mostrar solo el nombre de los panes.
+//panesur/pan/nombre
+
+-Mostrar solo el último pan.
+//panesur/pan[10]
+
+-Mostrar sólo el nombre y la disponibilidad de los panes de la categoría Artesanal.
+//panesur/*[@categoria='Artesanal']/nombre | /panesur/*[@categoria='Artesanal']/disponible
+
+-Mostrar el nombre de los panes que tienen solo harina de maiz y trigo.
+//panesur/pan[harina='Maiz y Trigo']/nombre
+
+-Mostrar el nombre de los panes Artesanales que no estan disponibles.
+//panesur/pan[@categoria='Artesanal'][disponible='No']/nombre
+
+-Mostrar las harinas necesarias para elaborar el Pan Ecologico.
+//panesur/pan[nombre='Pan Ecologico']/harina
+
