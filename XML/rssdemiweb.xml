@@ -1,1 +1,28 @@
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Página Principal</title>
+        <link>index.html</link>
+        <description>La página a la que acceder a todas las paginas de Panesur</description>
+        <item>
+            <title>Página About</title>
+            <link>about.html</link>
+            <description>La página donde se guarda información sobre Panesur</description>
+        </item>
+        <item>
+            <title>Página de Contacto</title>
+            <link>contacto.html</link>
+            <description>Página para ponersen en contacto con Panesur a traves de un formulario web</description>
+        </item>
+        <item>
+            <title>Página de Noticias</title>
+            <link>noticias.html</link>
+            <description>Lo último de Panesur</description>
+        </item>
+        <item>
+            <title>Página de Servicios</title>
+            <link>servicios.html</link>
+            <description>Página que especifica todos los servicios de Panesur</description>
+        </item>
+    </channel>
+</rss>
