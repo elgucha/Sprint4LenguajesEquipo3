@@ -1,0 +1,44 @@
+1.Sólo los postres
+
+for $menu in doc("menu.xml")//menu/postres
+return $menu
+
+2.Todos los platos que tengan un precio menor a 10 euros
+
+for $menu in doc("menu.xml")//menu/principales[precio<10]
+return $menu/nombre/text()
+
+3.todos los platos que tenga como ingrediente pescado
+
+for $menu in doc("menu.xml")//menu/platos[ingredientes ="Pescado" ]
+return $menu
+
+4.El último plato de la lista
+
+for $menu in doc("menu.xml")//menu/platos[last()]
+return $menu
+
+5.Sólo el nombre de todos los platos
+
+for $menu in doc("menu.xml")//menu/platos
+return $menu/nombre
+
+6. Sólo el nombre y el primer ingrediente de todos los platos
+
+for $menu in doc("menu.xml")//menu/platos
+return$menu/nombre | $menu/ingredientes
+
+
+7.Sólo los entrantes
+
+for $menu in doc("menu.xml")//menu/entrantes
+return $menu
+
+8.Sólo principales
+
+for $menu in doc("menu.xml")//menu/principales
+
+9.Todos los platos
+
+for $menu in doc("menu.xml")//menu/platos
+return $menu
