@@ -1,0 +1,22 @@
+<servicios>
+<panesur category="Catering">
+  <title>Catering Eventos</title>
+  <tipoclientes>particulares o empresas</tipoclientes>
+  <sugerido> eventos </sugerido>
+ <precio>Desde 100</precio>
+</panesur>
+
+<panesur category="Distribución">
+  <title>Distribución mayorista</title>
+  <tipoclientes>empresas</tipoclientes>
+  <sugerido>panaderias</sugerido>
+  <precio>A consultar</precio>
+  </panesur>
+
+<panesur category="Tartas al gusto">
+  <title>Pasteles por encargo</title>
+  <tipoclientes>particulares</tipoclientes>
+  <sugerido>panaderias</sugerido>
+  <precio>Desde 30</precio>
+  </panesur>
+</servicios>
